@@ -2,7 +2,6 @@ const express = require("express");
 const router = express.Router();
 const {
   assignOrderToDeliveryAgent,
-  updateDeliveryStatus,
 } = require("../controllers/DeliveryController");
 const authenticateToken = require("../authMiddleware");
 
@@ -12,8 +11,5 @@ router.post(
   authenticateToken,
   assignOrderToDeliveryAgent
 );
-
-// Update delivery status
-router.put("/orders/update-delivery-status", updateDeliveryStatus);
 
 module.exports = router;
