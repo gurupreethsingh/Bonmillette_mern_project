@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import logo_white from "../../assets/homepage_images/Bon_millette_logo_white.png";
-import p1 from "../../assets/homepage_images/p1.jpg";
+import p1 from "../../assets/homepage_images/p1.JPG";
 import b1 from "../../assets/homepage_images/b1.jpg";
 import b2 from "../../assets/homepage_images/b2.jpg";
 import b3 from "../../assets/homepage_images/b3.jpg";
